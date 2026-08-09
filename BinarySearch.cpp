@@ -11,8 +11,7 @@ int main()
     int arr[n];
 
     cout << "Enter the elements in sorted order: ";
-    for(int i = 0; i < n; i++)
-    {
+    for(int i = 0; i < n; i++){
         cin >> arr[i];
     }
 
@@ -22,8 +21,7 @@ int main()
     int low = 0;
     int high = n - 1;
 
-    while(low <= high)
-    {
+    while(low <= high){
         int mid = (low + high) / 2;
 
         if(arr[mid] == key)
