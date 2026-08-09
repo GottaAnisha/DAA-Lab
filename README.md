@@ -1,2 +1,2 @@
 # DAA-Lab
-lab programs
+Lab programs
